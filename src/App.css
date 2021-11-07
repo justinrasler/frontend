@@ -42,3 +42,13 @@ body {
   background-color: rgb(199, 156, 170);
   font-family: 'Space Mono', monospace;
 }
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 7%;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
