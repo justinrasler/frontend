@@ -19,7 +19,7 @@ function About(props) {
 
   // define a function that will return the JSX needed once we get the data
   const loaded = () => (
-    <div>
+    <div classname="about">
       <h2>{about.name}</h2>
       <img src={about.image} alt=""/>
       <h3>{about.email}</h3>
@@ -28,7 +28,7 @@ function About(props) {
   );
 //headshot
   // if data arrives return the result of loaded, if not, an h1 that says loading
-  return about ? loaded() : <h1>Loading...</h1>;
+  return about ? loaded() : <img src="https://i.gifer.com/7h2v.gif"></img>;
 }
 
 export default About;
